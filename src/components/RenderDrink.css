@@ -1,0 +1,118 @@
+p {
+  font-size: 10px;
+}
+
+.drink-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.drinkname {
+  width: 100%;
+  height: 6%;
+  margin-top: 20px;
+}
+
+.img-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 60%;
+  height: 50%;
+  margin-top: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  align-self: center;
+  object-fit: fill;
+  border-radius: 20px;
+}
+
+.drink-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.ingredients-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-style: dotted dotted none none;
+  border-width: 4px 4px 1px 1px;
+  border-color: #fff;
+  background-color: transparent;
+}
+
+.instructions-container {
+  width: 50%;
+  height: 100%;
+  border-top: 4px dotted #fff;
+  background-color: transparent;
+}
+
+.ingredients-title {
+  margin-left: 10px;
+}
+
+.ingredients {
+  margin-bottom: 10px;
+  padding-left: 40px;
+  font-size: 15px;
+}
+
+.instruction-title {
+  margin-left: 10px;
+}
+
+.instructions {
+  margin-left: 10px;
+  font-size: 15px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
