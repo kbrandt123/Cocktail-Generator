@@ -1,5 +1,5 @@
 - Download the zip file from the github repository
 - Make sure to extract the file and open with preferred text editor
 - Open the terminal and run the command npm install
-- Run the command npm start
+- While in the terminal, run npm start
 - The application should start and open in your browser
